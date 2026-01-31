@@ -30,11 +30,11 @@ const projects = [
     github: "#",
   },
   {
-    title: "Netflix clone",
+    title: "Online shopping",
     description:
-      "A collaborative way of expressing your needs for movies and TV shows",
+      "A collaborative way of expressing your needs for a product or service.",
     image: "/projects/project4.png",
-    tags: ["Node.js", "express.js", "MongoDB", "JWT"],
+    tags: ["Node.js", "express.js", "PostgreSQL", "Clerk"],
     link: "#",
     github: "#",
   },
