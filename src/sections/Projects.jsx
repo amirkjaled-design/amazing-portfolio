@@ -17,7 +17,7 @@ const projects = [
       "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
     image: "/projects/project2.png",
     tags: ["React", "PostgreSQL", "Tailwind"],
-    link: "#",
+    link: "https://modern-web-app-eight.vercel.app/",
     github: "#",
   },
   {
@@ -26,7 +26,7 @@ const projects = [
       "An Ai Saas platform seamlessly integrates with your existing workflows",
     image: "/projects/project3.png",
     tags: ["React", "OpenAI", "FastAPI"],
-    link: "#",
+    link: "https://landing-page-one-lake-72.vercel.app/",
     github: "#",
   },
   {
@@ -34,8 +34,8 @@ const projects = [
     description:
       "A collaborative way of expressing your needs for a product or service.",
     image: "/projects/project4.png",
-    tags: ["Node.js", "express.js", "PostgreSQL", "Clerk"],
-    link: "#",
+    tags: ["Next.js", "stripe", "tailwind"],
+    link: "https://shopify-sable-tau.vercel.app/",
     github: "#",
   },
 ]
