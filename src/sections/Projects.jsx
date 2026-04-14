@@ -41,10 +41,19 @@ const projects = [
     {
     title: "Travel planner",
     description:
-      "The best way to manage and share your travel plans with friends and family.",
+      "The best way to manage and share your travel plans with friends and family. Made by using react-globe-gl",
     image: "/projects/project5.png",
     tags: ["Next.js", "postgresql", "NextAuth", "react-globegl"],
     link: "https://travel-nu-mauve.vercel.app/",
+    github: "#",
+  },
+     {
+    title: "Application Tracker",
+    description:
+      "Job application tracker using Next.js Drag and drop, Mongodb and better auth ",
+    image: "/projects/project6.png",
+    tags: ["Next.js", "Draga and Drop", "BetterAuth", "mongodb"],
+    link: "https://job-hu9alig19-amir-kalids-projects.vercel.app/",
     github: "#",
   },
 ]
@@ -69,7 +78,7 @@ export const Projects = () => {
                             <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"/>
                              <div className="absolute inset-0 bg-linear-to-t from-card via-card/50 to-transparent opacity-60" />
                              <div className="absolute inset-0 gap-4 items-center justify-center flex opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                <a href={project.link} className="rounded-full glass p-3 hover:text-primary-foreground hover:bg-primary transition-all"><ArrowUpRight className="h-5 w-5"/></a>
+                                <a href={project.link} target="_blank" className="rounded-full glass p-3 hover:text-primary-foreground hover:bg-primary transition-all"><ArrowUpRight className="h-5 w-5"/></a>
                                 <a href={project.link} className="rounded-full glass p-3 hover:text-primary-foreground hover:bg-primary transition-all"><Github className="h-5 w-5"/></a>
                              </div>
                             </div>
